@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="style.css">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+     <script src="app1.js"></script>
+    <title>Java Script</title>
+  </head>
+  <body>
+ <br>
+    <div class="a">
+      <h1 class="heading">Calculator</h1>
+    </div>
+ 
+    <div class="heading">
+<br>
+
+    <div class="answer">
+      <input type="text" id="result">
+    </div>
+
+    <br>
+    <div>
+      <div class="button-arrange ">
+
+        <button type="button" class="operator btn btn-warning btn-outline-dark" onclick="getnum('+')">+</button>
+        <button type="button" class="operator btn btn-warning btn-outline-dark" onclick="getnum('-')">-</button>
+        <button type="button" class="operator btn btn-warning btn-outline-dark" onclick="getnum('*')">&times;</button>
+        <button type="button" class="operator btn btn-warning btn-outline-dark" onclick="getnum('/')">&divide;</button>
+  
+        <button type="button" onclick="getnum('7')" class="btn btn-light waves-effect btn-outline-secondary">7</button>
+        <button type="button" onclick="getnum('8')" class="btn btn-light waves-effect btn-outline-secondary">8</button>
+        <button type="button" onclick="getnum('9')" class="btn btn-light waves-effect btn-outline-secondary">9</button>
+  
+  
+        <button type="button" onclick="getnum('4')" class="btn btn-light waves-effect btn-outline-secondary">4</button>
+        <button type="button" onclick="getnum('5')" class="btn btn-light waves-effect btn-outline-secondary">5</button>
+        <button type="button" onclick="getnum('6')" class="btn btn-light waves-effect btn-outline-secondary">6</button>
+  
+  
+        <button type="button" onclick="getnum('1')" class="btn btn-light waves-effect btn-outline-secondary">1</button>
+        <button type="button" onclick="getnum('2')" class="btn btn-light waves-effect btn-outline-secondary">2</button>
+        <button type="button" onclick="getnum('3')" class="btn btn-light waves-effect btn-outline-secondary">3</button>
+  
+  
+        <button type="button" onclick="getnum('0')" class="btn btn-light waves-effect btn-outline-secondary">0</button>
+        <button type="button" class="decimal function btn btn-dark  btn-outline-light" onclick="getnum('.')">.</button>
+        <button type="button" class="all-clear function btn btn-primary " onclick = "Clear()">AC</button>
+  
+        <button type="button" class="equal-sign operator btn btn-warning btn-outline-dark" onclick="getResult()">=</button>
+  
+      </div>
+    </div>
+    <br>
+
+  </div>
+
+  
+</html>
