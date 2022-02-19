@@ -53,3 +53,9 @@ body{
       }
 
  }
+ @media (max-width: 600px) { 
+    .heading{
+        width: 50%;   
+      }
+
+ }
