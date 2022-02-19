@@ -42,15 +42,17 @@ body{
       width: 30%;   
     }
  }
+ @media (max-width: 600px) { 
+    .heading{
+        width: 50%;   
+      }
+     
  @media (max-width: 400px) { 
     .heading{
         width: 65%;   
       }
 
  }
- @media (max-width: 600px) { 
-    .heading{
-        width: 50%;   
-      }
+
 
  }
